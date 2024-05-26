@@ -12,6 +12,7 @@
 * Icon themes - Tela-Icon-Themes(black, purple, yellow, grey)  &  Breeze(dark)
 
 # Workflow:
+[![Watch the video](https://github.com/Manas2325/Hyprland/assets/64134100/01e8d99c-3bab-4dba-b2fd-a5b683112abc)](https://www.youtube.com/watch?v=vyXKXtFVs50)
 
 
 # Installation: 
