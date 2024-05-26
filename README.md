@@ -2,7 +2,7 @@
 * OS - Endeavour OS
 * Desktop Environment - Hyprland
 * Terminal Emulator - Kitty
-* Notifications-Daemon - Dunst *[volume notifications](https://gitlab.com/Nmoleo/i3-volume-brightness-indicator/-/tree/main?ref_type=heads)*
+* Notifications-Daemon - Dunst *[(volume notifications)](https://gitlab.com/Nmoleo/i3-volume-brightness-indicator/-/tree/main?ref_type=heads)*
 * App Launcher - Rofi (https://github.com/adi1090x/rofi)
 * Status Bar - Waybar
 * Terminal - zsh
