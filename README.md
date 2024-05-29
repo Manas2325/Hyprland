@@ -17,15 +17,14 @@
 *[Workflow Video](https://www.youtube.com/watch?v=vyXKXtFVs50)*
 
 # Installation: 
-1. Install the following Dependencies:
-    (Kitty, Dunst, Rofi, Waybar, Nautilus, swww)
-2. Copy the contents from the folder of the desired theme into the "$HOME/.config" folder.
-3. Copy the "volume_brightness.sh" script from *[this repo](https://gitlab.com/Nmoleo/i3-volume-brightness-indicator/-/tree/main?ref_type=heads)* and paste it in the '/usr/local/bin' folder.\
-    Run the following command and rename the script to 'volume_brightness'.\
-    ``` sudo chmod a+x volume_brightness ```
-4. Install the fonts mentioned above.
-5. Download the Icon themes mentioned above and save them in '/usr/share/icons' folder.
-6. Restart the system.
+1. Clone this repo and change directory\
+   ``` git clone https://github.com/Manas2325/Hyprland.git ```\
+   ``` cd Hyprland ```
+2. Make the Install script and executable\
+   ``` sudo chmod +x install.sh ```
+4. Run the install script with sudo permissions:\
+   ``` sudo ./install.sh ```
+5. Refer the repos below for additional functionalities.   
 
 ## Refer the following repos:
 * workspaces overview: https://github.com/DreamMaoMao/hycov?tab=readme-ov-file 
