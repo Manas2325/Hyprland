@@ -19,6 +19,7 @@ cd /usr/local/bin
 sudo chmod a+x volume_brightness.sh
 sudo mv volume_brightness.sh volume_brightness
 
+cd $HOME/.config
 
 echo Installing Fonts ....
 # install the required fonts
@@ -33,6 +34,7 @@ sudo pacman -S ttf-nerd-fonts-symbols-common
 
 echo Rendering ....
 # render a theme
+cd $HOME/.config
 cd themes
 cd Crimson
 ./copy.sh
