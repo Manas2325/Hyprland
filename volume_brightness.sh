@@ -29,11 +29,11 @@ function get_volume_icon {
     volume=$(get_volume)
     mute=$(get_mute)
     if [ "$volume" -eq 0 ] || [ "$mute" == "yes" ] ; then
-        volume_icon=""
+        volume_icon=" "
     elif [ "$volume" -lt 50 ]; then
-        volume_icon=""
+        volume_icon=" "
     else
-        volume_icon=""
+        volume_icon=" "
     fi
 }
 
@@ -138,13 +138,13 @@ case $1 in
 
     brightness_up)
     # Increases brightness and displays the notification
-    sudo light -A $brightness_step 
+    brightnessctl s 5%+
     show_brightness_notif
     ;;
 
     brightness_down)
     # Decreases brightness and displays the notification
-    sudo light -U $brightness_step
+    brightnessctl s 5%-
     show_brightness_notif
     ;;
 
