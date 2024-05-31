@@ -36,7 +36,8 @@
 ## Changing themes:
 1. Change directory into the "$HOME/.config/themes" folder:
    ``` cd $HOME/.config/themes ```
-2. Chage directory into the desired theme and run the copy.sh script.\ (If it is not executable make it excutable first using ``` chmod +x copy.sh ```)
+2. Chage directory into the desired theme and run the copy.sh script. \
+ (If it is not executable make it excutable first using ``` chmod +x copy.sh ```)
 
 # Keybindings: 
 
